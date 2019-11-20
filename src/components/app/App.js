@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import MapContainer from "../map-container";
 import './app.scss';
 
 export default class App extends Component {
@@ -6,6 +7,7 @@ export default class App extends Component {
         return (
             <div>
                 <div>App</div>
+                <MapContainer/>
             </div>
         );
     }
